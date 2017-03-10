@@ -1,0 +1,37 @@
+{
+  "name": "learn_esx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "chai": "^3.5.0",
+    "date-fns": "^1.21.1",
+    "deep-freeze": "0.0.1",
+    "deepfreeze": "^2.0.0",
+    "expect": "^1.20.2",
+    "faker": "^3.1.0",
+    "jest": "^15.1.1",
+    "node-uuid": "^1.4.7",
+    "redux": "^3.6.0",
+    "redux-jest": "^1.1.1",
+    "tape": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "jest-cli": "^15.1.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "./node_modules/.bin/babel j.js -d dist"
+  },
+  "author": "",
+  "license": "ISC"
+}

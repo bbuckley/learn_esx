@@ -1,0 +1,24 @@
+{
+  "key1": {
+    "ssn": "000-01-0001",
+    "crd": "1/1/2000",
+    "calc_type": "UI1",
+    "description": "This is a UI1"
+  },
+  "key2": {
+    "ssn": "222-33-2222",
+    "crd": "1/1/2001",
+    "calc_type": "TermAB",
+    "description": "This is a TermAB"
+  },
+  "key22": {
+    "ssn": "023-43-1111",
+    "crd": "1/2/2001",
+    "calc_type": "TermAB",
+    "description": "This is a TermAB"
+  },
+  "c3722fe7-38e2-4523-8a9d-da2efef988e9": {
+    "ssn": "9999-99-1111",
+    "crd": "12/2/2001"
+  }
+}
