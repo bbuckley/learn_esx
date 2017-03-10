@@ -4,6 +4,11 @@ const a = {
   bar: [],
 }
 
+const b = {
+  xxx: ['a','b'],
+  yyy: 1,
+}
+
 console.log({...a});
 console.log({...a, foo: 888});
 
