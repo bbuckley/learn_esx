@@ -9,7 +9,6 @@ const b = {
   yyy: 1,
   zzz: ['a', '111'],
 }
-
 console.log({...a});
 console.log({...a, foo: 888});
 
