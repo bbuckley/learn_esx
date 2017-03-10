@@ -7,6 +7,7 @@ const a = {
 const b = {
   xxx: ['a','b'],
   yyy: 1,
+  zzz: ['a', '111'],
 }
 
 console.log({...a});
