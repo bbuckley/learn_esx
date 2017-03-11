@@ -5,12 +5,11 @@ console.log(jest);
 
 // import { expect } from 'expect'
 // import { expect, test } from 'jest';
+
 // import
 // import { deepFreeze } from 'deep-freeze'
 
 var deepFreeze = require('deep-freeze');
-//
-//
 //
 const addCounter = (list) => {
   list.push(0);

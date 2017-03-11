@@ -13,7 +13,6 @@ if (require.main === module) {
 }
 
 
-
 const fomf = (d) => {
   return new Date(d.getFullYear(), d.getMonth() + 1, 1)
 }
