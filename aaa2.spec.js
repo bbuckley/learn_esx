@@ -4,7 +4,7 @@
 describe('aaa2', () => {
   it('should handle initial state', () => {
 
-    const x  = 0;``
+    const x  = 0;
   })
 
   it('should handle invalid method', () => {
