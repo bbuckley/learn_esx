@@ -30,6 +30,9 @@
   },
   "scripts": {
     "test": "jest",
+    "testa": "jest -- -t 'spec'",
+    "testb": "jest --verbose",
+    "test_help": "jest help",
     "build": "./node_modules/.bin/babel j.js -d dist"
   },
   "author": "",

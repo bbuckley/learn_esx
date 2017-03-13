@@ -4,6 +4,10 @@
 describe('aaa', () => {
 
   it('should handle initial state', () => {
+    //expect(1).toEqual(2)
+    expect(1).toEqual(1)
+    //expect(1)
+    
 
 
   })
