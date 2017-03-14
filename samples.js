@@ -1,5 +1,5 @@
 
-import { v4 } from 'node-uuid'
+import { v4 } from 'uuid'
 import faker from 'faker'
 
 const calc_types = ['UI1','Modeling','Final','TermAB','EP1']

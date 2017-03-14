@@ -16,7 +16,8 @@
     "node-uuid": "^1.4.7",
     "redux": "^3.6.0",
     "redux-jest": "^1.1.1",
-    "tape": "^4.6.0"
+    "tape": "^4.6.0",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "babel-preset-react": "^6.16.0",
@@ -29,9 +30,8 @@
     "jest-cli": "^15.1.1"
   },
   "scripts": {
-    "test": "jest",
-    "testa": "jest -- -t 'spec'",
-    "testb": "jest --verbose",
+    "test": "jest -- -t 'sample.spec' --verbose",
+    "test_spec": "jest -- -t 'spec' --verbose",
     "test_help": "jest help",
     "build": "./node_modules/.bin/babel j.js -d dist"
   },
