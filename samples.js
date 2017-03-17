@@ -61,7 +61,7 @@ export const samples = (n=1) => {
 //console.log(samples);
 //console.log(samples(10))
 
-const a = samples(10).map(x => x.pbc)
+//const a = samples(10).map(x => x.pbc)
 //console.log(a);
 //console.log([...new Set(a)].sort())
 //console.log([...new Set(samples(5).map(x => x.pbc))].sort())

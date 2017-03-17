@@ -8,7 +8,7 @@ const k = Object.keys(b);
 // console.log(k.map(k => Object.assign({ id: k }, b[k])  ));
 // console.log(k.map(k => ({...b[k], id: k}) ));
 
-import { v4 } from 'node-uuid'
+import { v4 } from 'uuid'
 console.log(b)
 const id = v4()
 b[id] = { id: id }
