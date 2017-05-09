@@ -1,14 +1,11 @@
-
-
-const f = 'this is a test'
+const f = "this is a test";
 
 console.log(f.match(/est/) !== null);
 
-
-let r = new RegExp('zo')
-let target = "zoo"
+let r = new RegExp("zo");
+let target = "zoo";
 
 console.log(target.match(r) !== null);
 
-target = 'f'
+target = "f";
 console.log(target.match(r) !== null);

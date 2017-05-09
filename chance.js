@@ -1,8 +1,7 @@
-
 //import 'chancejs' from 'chancejs'
-var Chance = require('chance')
+var Chance = require("chance");
 
-var chance = new Chance()
+var chance = new Chance();
 
 // Use Chance here.
-console.log(chance.string())
+console.log(chance.string());
