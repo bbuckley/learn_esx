@@ -58,3 +58,7 @@ console.log(new Superset('a','b').isSubsetOf(new Superset(['a'])));
 
 const all = [1,2,3]
 console.log([5, 6, 7].some(x => all.includes(x)));
+
+
+const s = ['111','222','444']
+console.log({s, t: [...s,'333'], u: s.filter(x => x!=='222'), v: s.includes('1111')});
