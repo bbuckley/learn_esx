@@ -21,3 +21,6 @@ console.log(x(), x, xx(), xx);
 const z = [1, 3, 5, 7 ,9];
 const [zz, zzz, ...zzzz] = z;
 console.log({z, zz, zzz, zzzz });
+
+const {q, qq} = {q: 1, qq: 888}
+console.log({q, qq});
