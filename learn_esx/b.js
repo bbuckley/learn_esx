@@ -21,4 +21,7 @@ console.log(b)
 console.log(b.baz(),b.baz(9), b.fizz(2), b.buzz(22,33));
 
 
+
+
+
 // module.export =  b
