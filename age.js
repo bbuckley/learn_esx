@@ -22,6 +22,7 @@ const props = {
   ],
 };
 
+
 class Tc {
   constructor(data) {
     this.data = data;
