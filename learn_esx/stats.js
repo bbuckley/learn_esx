@@ -18,7 +18,8 @@ const keys = Array.from(
 
 const a = tcs.reduce((a,b) => {
   Object.keys(b).forEach(x => {
-    
+    b[x] ? console.log('x') : console.log('y');
+    console.log(b[x]);
   })
   return a
 }, {})
